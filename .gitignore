@@ -1,0 +1,19 @@
+# Credentials and Secrets (CRITICAL)
+.env
+
+# Jupyter Notebook Autosaves and Checkpoints
+.ipynb_checkpoints/
+
+# PySpark and Spark SQL Metadata / Local Storage
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Python Bytecode and Caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Operating System Hidden Files
+.DS_Store
+Thumbs.db
