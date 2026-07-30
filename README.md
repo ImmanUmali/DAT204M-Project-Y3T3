@@ -107,11 +107,20 @@ Cluster Analysis
 │   ├── BIRCH (Feature Engineered - Sample Data).ipynb
 │   ├── KMeans (Feature Engineered - Full Data).ipynb
 │   ├── KMeans (Feature Engineered - Sample Data).ipynb
-│   └── 
+│   ├── Gaussian Mixture (Feature Engineered - Full Data).ipynb
+│   ├── Gaussian Mixture (Feature Engineered - Sample Data).ipynb
+│   ├── Feature Engineered.ipynb
+│   └── Feature Engineered (Sample).ipynb
 │
 ├── HTML Files/
-│
-├── Feature Engineer.ipynb
+│   ├── BIRCH (Feature Engineered - Full Data).html
+│   ├── BIRCH (Feature Engineered - Sample Data).html
+│   ├── KMeans (Feature Engineered - Full Data).html
+│   ├── KMeans (Feature Engineered - Sample Data).html
+│   ├── Gaussian Mixture (Feature Engineered - Full Data).html
+│   ├── Gaussian Mixture (Feature Engineered - Sample Data).html
+│   ├── Feature Engineered.html
+│   └── Feature Engineered (Sample).html
 │
 ├── EDA.ipynb
 │
