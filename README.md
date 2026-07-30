@@ -38,12 +38,12 @@ Instead of clustering individual user events, the pipeline first aggregates user
 s3://dat204m-project-g3/
 │
 ├── raw/ -> Contains Raw Data
-│   ├── 2023-01/
-│   ├── 2023-02/
-│   ├── 2023-03/
-│   ├── 2023-04/
-│   ├── 2023-05/
-│   └── 2023-06/
+│   ├── 20230501/
+│   ├── 20230601/
+│   ├── 20230701/
+│   ├── 20230801/
+│   ├── 20230901/
+│   └── 20231001/
 │
 ├── sampled_eda_data/ -> Contains Cleaned Sample Data
 │
