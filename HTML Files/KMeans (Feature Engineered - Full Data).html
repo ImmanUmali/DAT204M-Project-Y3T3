@@ -10111,6 +10111,19 @@ Calinski-Harabasz Index:450109.3880
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=89c88a99-e256-4484-be84-44de1185c962">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>The cluster distribution shows varying levels of customer engagement across the five product segments. <strong>Cluster 0</strong> is the largest group with <strong>762,157 products</strong>, representing <strong>low-engagement products</strong> with the lowest averages for views, likes, carts, purchases, unique users, and sessions. <strong>Cluster 2</strong> is the second largest cluster (<strong>411,488 products</strong>) and consists of <strong>moderately engaged products</strong>, exhibiting higher customer interactions than Clusters 0 and 1. <strong>Cluster 4</strong> (<strong>119,391 products</strong>) represents <strong>high-engagement products</strong>, recording substantially higher averages across all engagement metrics while remaining far below the extreme values of Cluster 3.</p>
+<p><strong>Cluster 1</strong> (<strong>68,856 products</strong>) forms a <strong>medium-engagement segment</strong>, with customer interactions greater than Cluster 0 but lower than Clusters 2 and 4. In contrast, <strong>Cluster 3</strong> is the smallest cluster (<strong>22,104 products</strong>) yet stands out as an <strong>exceptional high-engagement segment</strong>, recording extremely high averages for views, likes, carts, purchases, unique users, and sessions. This suggests that Cluster 3 contains a small number of highly popular or viral products that receive significantly more customer attention than all other clusters.</p>
+<p>Overall, the clusters are primarily differentiated by <strong>customer engagement intensity</strong>, ranging from low-engagement products (Cluster 0) to exceptionally high-engagement products (Cluster 3), while product condition remains relatively similar across all clusters.</p>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=97517aa0-f9d5-4819-b51a-3ed41520d714">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -10118,17 +10131,6 @@ Calinski-Harabasz Index:450109.3880
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Supporting-Visualizations">Supporting Visualizations<a class="anchor-link" href="#Supporting-Visualizations">¶</a></h2>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1151775a-ef06-40fc-b6f9-01de6821413a">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Visualize the Average Views, Average Likes, Average Cart, Average Purchases per Cluster</p>
 </div>
 </div>
 </div>
@@ -10155,6 +10157,17 @@ Calinski-Harabasz Index:450109.3880
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
 <pre>                                                                                </pre>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8f7a02f5-0b21-4ca8-a71a-fca5abac6210">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>The engagement metrics reveal a clear separation among the clusters. <strong>Cluster 3</strong> exhibits exceptionally high average views, likes, carts, and purchases, making it a distinct group of <strong>highly popular products</strong>. <strong>Cluster 4</strong> records the second-highest engagement across all metrics, representing <strong>high-engagement products</strong>. <strong>Cluster 2</strong> shows <strong>moderate engagement</strong>, followed by <strong>Cluster 1</strong>, while <strong>Cluster 0</strong> consistently records the lowest averages, indicating <strong>low-engagement products</strong>. Overall, the clusters represent a progression from low- to exceptionally high-engagement product segments.</p>
 </div>
 </div>
 </div>
@@ -10203,7 +10216,7 @@ Calinski-Harabasz Index:450109.3880
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>A normalized heatmap was generated to visualize and compare the relative feature profiles of each cluster, highlighting differences in customer engagement, reach, and product characteristics.</p>
+<p>The normalized heatmap clearly distinguishes the five clusters based on their relative feature values. <strong>Cluster 3</strong> exhibits the <strong>highest normalized values across all customer engagement metrics</strong>, indicating an exceptional high-engagement segment. <strong>Cluster 4</strong> also demonstrates <strong>strong engagement</strong>, though at lower levels than Cluster 3, while <strong>Cluster 2</strong> is characterized by a <strong>higher average price</strong> despite only moderate engagement. <strong>Clusters 0 and 1</strong> show the <strong>lowest normalized engagement values</strong>, representing products with relatively limited customer interaction. Overall, the heatmap confirms that the clusters are primarily differentiated by <strong>customer engagement intensity</strong>, with price contributing mainly to the distinction of Cluster 2.</p>
 </div>
 </div>
 </div>
@@ -10286,7 +10299,7 @@ Calinski-Harabasz Index:450109.3880
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>PCA was used to project the clustered data into two dimensions for visualization of the cluster distribution and separation.</p>
+<p>The PCA projection shows that the clusters are <strong>reasonably well separated</strong>, although some overlap exists among the lower-engagement groups. <strong>Cluster 3</strong> is the most distinct, extending far from the other clusters along the principal components, indicating products with exceptionally high customer engagement. <strong>Clusters 0, 2, and 4</strong> form more compact groups with moderate overlap, while <strong>Cluster 1</strong> is positioned between the low- and high-engagement segments.</p>
 </div>
 </div>
 </div>
