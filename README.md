@@ -1,0 +1,135 @@
+# DAT204M Project - Product Clustering using the Mercari (MERREC) Dataset
+
+## Overview
+
+This project performs **unsupervised clustering** on products from the **MerRec: A Large-scale Multipurpose Mercari Dataset for Consumer-to-Consumer Recommendation Systems** to identify groups of products with similar customer interaction patterns and product characteristics.
+
+Instead of clustering individual user events, the pipeline first aggregates user behavior at the **product level**, engineers meaningful features, and applies multiple clustering algorithms to compare their performance.
+
+---
+
+# Objectives
+
+- Aggregate user interaction data into product-level metrics.
+- Engineer numerical and categorical features representing each product.
+- Compare different clustering algorithms.
+- Evaluate clustering quality using multiple validation metrics.
+- Identify the best-performing clustering model for product segmentation.
+
+---
+
+# Dataset
+
+**Dataset:** https://huggingface.co/datasets/mercari-us/merrec
+
+**Paper:** Li, L., Abi Din, Z., Tan, Z., London, S., Chen, T., & Daptardar, A. (2024). *MerRec: A Large-scale Multipurpose Mercari Dataset for Consumer-to-Consumer Recommendation Systems*. arXiv:2402.14230.
+
+---
+
+# Data Storage
+
+**Platform:** Amazon Web Services S3
+
+**File Format:** Parquet
+
+**Data Layout:**
+
+```text
+s3://dat204m-project-g3/
+│
+├── raw/ -> Contains Raw Data
+│   ├── 2023-01/
+│   ├── 2023-02/
+│   ├── 2023-03/
+│   ├── 2023-04/
+│   ├── 2023-05/
+│   └── 2023-06/
+│
+├── sampled_eda_data/ -> Contains Cleaned Sample Data
+│
+├── cleaned_data_final/ -> Contains Cleaned Full Data
+│
+├── feature_engineered/ -> Contains Feature Engineer Data of Sample Data
+│
+├── feature_engineered_full/ -> Contains Feature Engineer Data of Full Data
+```
+
+---
+
+# Project Workflow
+
+```
+Raw Event Data
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Exploratory Data Analysis (EDA)
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Feature Scaling
+        │
+        ▼
+Clustering
+        │
+        ▼
+Model Evaluation
+        │
+        ▼
+Cluster Analysis
+```
+
+---
+
+# Technologies Used
+
+- Python
+- PySpark
+- Amazon Web Services SageMaker
+- Amazon Web Services S3
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+
+---
+
+# Project Structure
+
+```
+.
+├── Python Notebooks/
+│   ├── BIRCH (Feature Engineered - Full Data).ipynb
+│   ├── BIRCH (Feature Engineered - Sample Data).ipynb
+│   ├── KMeans (Feature Engineered - Full Data).ipynb
+│   ├── KMeans (Feature Engineered - Sample Data).ipynb
+│   └── 
+│
+├── HTML Files/
+│
+├── Feature Engineer.ipynb
+│
+├── EDA.ipynb
+│
+└── README.md
+```
+
+---
+
+
+# Authors 
+
+**Raphael Matthew Azucena**
+
+**Vergel John Himpisao**
+
+**Immanuel Umali**
+
+**Mary Ann Villamor**
+
+**Geilah Tabanao**
+
