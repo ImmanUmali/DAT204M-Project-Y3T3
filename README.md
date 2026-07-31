@@ -126,6 +126,9 @@ Cluster Analysis
 │
 └── README.md
 ```
+---
+# AWS Project Architecture
+<img width="7468" height="2488" alt="DAT204M Project AWS arch drawio" src="https://github.com/user-attachments/assets/5029e93a-fea9-4b5b-b9a0-d0c60ea57467" />
 
 ---
 
