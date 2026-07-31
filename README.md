@@ -122,7 +122,8 @@ Cluster Analysis
 │   ├── Feature Engineered.html
 │   └── Feature Engineered (Sample).html
 │
-├── EDA.ipynb
+├── Comprehensive EDA.ipynb
+├── Comprehensive EDA.html
 │
 └── README.md
 ```
