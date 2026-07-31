@@ -129,7 +129,7 @@ Cluster Analysis
 ```
 ---
 # AWS Project Architecture
-<img width="7468" height="2488" alt="DAT204M Project AWS arch drawio" src="https://github.com/user-attachments/assets/5029e93a-fea9-4b5b-b9a0-d0c60ea57467" />
+<img width="7468" height="2488" alt="DAT204M Project AWS arch drawio" src="https://github.com/user-attachments/assets/14d9a14c-cdc6-4a04-8e60-5909283663a1" />
 
 ---
 
